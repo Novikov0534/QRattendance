@@ -49,7 +49,7 @@ markBtn.addEventListener('click', function() {
   };
 
   // Вставьте сюда свой URL веб-приложения Google Apps Script
-  fetch("https://script.google.com/macros/s/AKfycbxGmQ2VBl4OzczegbA5Bzvh2vvRE-gQZEvAjCiogajUs2M_DscjrrGA1VVaOmZsTOHoFQ/execы", {
+  fetch("https://script.google.com/macros/s/AKfycbxGmQ2VBl4OzczegbA5Bzvh2vvRE-gQZEvAjCiogajUs2M_DscjrrGA1VVaOmZsTOHoFQ/exec", {
     method: "POST",
     body: JSON.stringify(payload),
     headers: {
